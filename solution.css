@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 0;
+    min-height: 100vh; /* The page will always be with the users 100 viewport*/
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+header {
+    background-color: #313638;
+    color: white;
+    font-size: 3em; /* container has gotten bigger because the font didbeacuase it is flexbox*/
+    font-weight: 900;
+    padding: 3.5rem;
+    font-weight: bold;
+}
+ 
+main {
+    flex-grow: 1; /**/ /* To take the space from bottom and give it to the middle*/
+    display: flex; /* Now they are horizontal*/
+}
+ 
+nav {
+    background-color: #F06543;
+    color: white;
+    font-size: 3em; /* container has gotten bigger because the font did beacuase it is flexbox*/
+    font-weight: 900;
+    padding: 3.5rem;
+    font-weight: bold;
+}
+ 
+article {
+    padding: 3.5rem 7em;
+}
+ 
+article h1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #424242;
+    border-bottom: 3px solid #A2A2A2;
+}
+ 
+article p {
+    color: #454545;
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+ 
+footer {
+    background-color: #B3B3B3;
+    color: white;
+    font-size: 3em;
+    font-weight: 900;
+    padding: 3.5rem;
+    font-weight: bold;
+}
